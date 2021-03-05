@@ -32,3 +32,27 @@ Yellow 1 - Pin 19 <br />
 Yellow 2 - Pin 4 <br />
 Red 1 - Pin 18 <br />
 Red 2 - Pin 15 <br />
+
+## Executing Program
+1. Go to [Arduino Site](https://www.arduino.cc/en/software)
+2. Download Linux ARM 32-bit (or one based on correct Operating System)
+3. Extract file and install the Arduino IDE in dowloaded directory (eg. Downloads)
+```bash
+cd Downloads
+tar -xvf arduino-1.8.13-linuxarm.tar.xz
+cd arduino-1.8.13
+sudo ./install.sh
+```
+4. Clone iot-lamp
+```bash
+git clone https://github.com/jxm033f/iot-lamp.git
+cd iot-lamp
+```
+5. Open Arduino IDE -> File -> Open -> mod4-wifi.ino <br />
+        1. File is located iot-lamp/mod4-wifi
+6. Upload Code which will allow it to run through the ESP32 <br />
+        1. After succesfully uploading you can disconnect the comp from the ESP32
+7. Then run mod4-wireless.py on Terminal in iot-lamp directory
+```bash
+python3 setting_locker.py
+```
