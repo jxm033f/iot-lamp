@@ -46,7 +46,7 @@ sudo ./install.sh
 4. Clone iot-lamp
 ```bash
 git clone https://github.com/jxm033f/iot-lamp.git
-cd iot-lamp
+cd iot-lamp/mod4-going-wireless
 ```
 5. Open Arduino IDE -> File -> Open -> mod4-wifi.ino <br />
         1. File is located iot-lamp/mod4-wifi
