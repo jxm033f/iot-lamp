@@ -1,2 +1,1 @@
-# iot-lamp
-Module 3: Wireless Lamp
+#Module 3: Wireless Lamp
